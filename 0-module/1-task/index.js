@@ -1,5 +1,5 @@
   function sum(m, n) { 
-    alert(m + n);
+    return m + n;
   }
   
   sum(1, 1); 
