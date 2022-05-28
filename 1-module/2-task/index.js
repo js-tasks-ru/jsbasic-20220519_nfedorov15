@@ -12,7 +12,7 @@ function print(text) {
  function isValid(name) {
 
 
-  if (name === "") {
+  if (!name) {
     return false;
   }
 
