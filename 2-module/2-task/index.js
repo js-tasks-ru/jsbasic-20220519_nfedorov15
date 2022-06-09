@@ -1,10 +1,8 @@
 function isEmpty(obj) {
-  for (let key in obj) {
-  
-  return true;
-}
-return false;
-}
+  if( Object.keys( obj ).length > 0 ) {
+     return false; 
+  } return true;
+  }
 
 let schedule = {};
 
